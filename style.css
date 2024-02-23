@@ -1,9 +1,10 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     overflow: auto;
+    font-weight: 300;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -106,7 +107,7 @@
     width: 30rem;
     position: absolute;
     left: 0%;
-    top: 66%;
+    top: 70%;
     z-index: 2;
 }
 .blue-banner p {
@@ -425,7 +426,7 @@
         width: 50px;
     }
     .blue-banner p {
-        margin-top: 0%;
+        margin-top: 2%;
     }
     .blue-banner {
         height: 1.5rem;
@@ -442,6 +443,7 @@
 }
 .about-text  {
     width: 55%;
+    font-size: 19px;
 }
 .about-img img {
     width: 22rem;
@@ -712,6 +714,7 @@
     padding-left: 15px;
     padding-top: 18px;
     margin-bottom: 1.5rem;
+    font-size: 17px;
 }
 .box-1 img {
     height: auto;
@@ -733,7 +736,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: xx-small;
+    font-size: 10px;
     padding: 1px 10px;
 }
 .sub-boxs img {
@@ -965,3 +968,4 @@
         width: 1rem;
     }
 }
+
